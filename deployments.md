@@ -59,6 +59,11 @@ Replicas: 3
 Image: httpd:2.4-alpine
 
 
+nmumshad's way:
+![Screenshot from 2023-10-24 11-05-31](https://github.com/Althaf-official/KodeKloud_Kubernetes/assets/105126131/3fad9aed-5d25-4c09-ac05-ca68a79fec20)
+
+
+my way:
 ```ruby
 controlplane ~ ➜  touch deployment-definition-httpd.yaml
 
