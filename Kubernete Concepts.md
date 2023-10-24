@@ -190,8 +190,7 @@ Verify the work by running kubectl get command :-
 
 `kubectl get pods`
 
-
-![Screenshot from 2023-10-23 15-22-29](https://github.com/Althaf-official/KodeKloud_Kubernetes/assets/105126131/465e270a-7cc5-4263-b1b9-7430580b7db2)
+![Screenshot from 2023-10-24 07-01-34](https://github.com/Althaf-official/KodeKloud_Kubernetes/assets/105126131/4ff5a9aa-b44c-4e1c-bd77-45a512c1b046)
 
 
 # Now change the image on this pod to redis.
@@ -210,4 +209,23 @@ kubectl edit pod redis
 If you used a pod definition file then update the image from redis123 to redis in the definition file via Vi or Nano editor and then run kubectl apply command to update the image :-
 
 kubectl apply -f redis-definition.yaml 
+
+![Screenshot from 2023-10-24 07-09-16](https://github.com/Althaf-official/KodeKloud_Kubernetes/assets/105126131/0ee6938d-72c3-47cf-ba25-b7a824d728c5)
+
+`kubectl edit pod redis` and `kubectl apply -f redis-definition.yaml` are both commands used in the Kubernetes ecosystem to manage pods and other resources. Let me explain each of them in more detail:
+
+1. `kubectl edit pod redis`:
+   - This command is used to edit an existing Kubernetes pod named "redis" directly in your default text editor (usually specified by the `EDITOR` environment variable). If the pod doesn't exist, it will create a new one.
+   - When you run this command, Kubernetes will open the YAML configuration of the "redis" pod in the specified text editor, and you can make changes to it.
+   - After you've made your edits and saved the file, Kubernetes will apply those changes to the pod. This is a quick way to make modifications to a running pod's configuration without manually deleting and recreating the pod.
+   - The pod's configuration is stored in a YAML file that describes its properties, such as the image, environment variables, resource requests, and more.
+
+2. `kubectl apply -f redis-definition.yaml`:
+   - This command is used to create or update Kubernetes resources based on a configuration file specified by the `-f` flag. In this case, it's trying to create or update a resource using the configuration defined in the "redis-definition.yaml" file.
+   - The YAML file, "redis-definition.yaml," typically contains a specification for a Kubernetes resource, such as a pod, deployment, service, or other objects. The content of the file defines the desired state of the resource.
+   - If the resource described in the YAML file doesn't exist, `kubectl apply` will create it. If the resource already exists, `kubectl apply` will update the resource to match the desired state as defined in the YAML file.
+   - This is a common way to manage and deploy applications in Kubernetes because it allows you to declaratively specify the desired state of your resources, making it easier to manage configurations and updates.
+
+In summary, `kubectl edit pod redis` allows you to interactively edit the configuration of an existing pod, while `kubectl apply -f redis-definition.yaml` is used to create or update Kubernetes resources based on the configuration defined in a YAML file. Both commands are important tools for managing and configuring Kubernetes resources.
+
 
