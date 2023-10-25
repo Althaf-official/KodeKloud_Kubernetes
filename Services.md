@@ -38,3 +38,63 @@ Run the command: kubectl describe deployment and look under the containers secti
 
 ![Screenshot from 2023-10-25 06-51-20](https://github.com/Althaf-official/KodeKloud_Kubernetes/assets/105126131/7bb697a2-17fd-461a-aa89-d5ce3d7b22a0)
 
+# Create a new service to access the web application using the service-definition-1.yaml file.
+
+
+
+Name: webapp-service
+Type: NodePort
+targetPort: 8080
+port: 8080
+nodePort: 30080
+selector:
+  name: simple-webapp
+
+
+Update the /root/service-definition-1.yaml file as follows:
+
+
+```ruby
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: webapp-service
+  namespace: default
+spec:
+  ports:
+  - nodePort: 30080
+    port: 8080
+    targetPort: 8080
+  selector:
+    name: simple-webapp
+  type: NodePort
+
+```
+
+Run the following command to create a webapp-service service as follows: -
+
+```ruby
+kubectl apply -f /root/service-definition-1.yaml
+
+```
+
+![Screenshot from 2023-10-25 07-02-02](https://github.com/Althaf-official/KodeKloud_Kubernetes/assets/105126131/c268fb41-3a46-43b3-82d9-bde799253913)
+
+Is service created?
+
+Is it type nodeport?
+
+Is the port set?
+
+Is the target port set?
+
+Is the node port set?
+
+Is the selector set?
+
+![Screenshot from 2023-10-25 07-05-29](https://github.com/Althaf-official/KodeKloud_Kubernetes/assets/105126131/b17bb844-1995-492d-ba3d-a529f0dca942)
+
+
+
+
