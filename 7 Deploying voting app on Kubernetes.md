@@ -171,7 +171,7 @@ postgres-pod.yaml      redis.service.yaml       voting-app-pod.yaml
 postgres-service.yaml  result-app-pod.yaml      voting-app-service.yaml
 redis-pod.yaml         result-app-service.yaml  worker-app-pod.yaml
 ```
-### create pod and service
+### created voting pod and service
 
 ```ruby
 althaf@mas:~/dev/kubernets/voting app$ kubectl create -f voting-app-pod.yaml 
@@ -180,7 +180,6 @@ pod/voting-app-pod created
 
 althaf@mas:~/dev/kubernets/voting app$ kubectl create -f voting-app-service.yaml 
 service/voting-service created
-
 
 
 althaf@mas:~/dev/kubernets/voting app$ kubectl get pod,svc
@@ -201,6 +200,28 @@ http://192.168.49.2:30005
 
 ![Screenshot from 2023-10-26 10-17-19](https://github.com/Althaf-official/KodeKloud_Kubernetes/assets/105126131/25c0906b-5c07-47c3-b0dd-48c0d4feb9e5)
 
+
+
+### created redis,postgres,result,voting pod and service
+### created worker pod 
+```ruby
+kubectl create -f redis-service.yaml
+kubectl create -f redis-pod.yaml 
+
+```
+
+now connected with the redis database . click is working now
+![Screenshot from 2023-10-26 10-33-40](https://github.com/Althaf-official/KodeKloud_Kubernetes/assets/105126131/d0759c0c-4458-4848-a4aa-261c3e4af6e0)![Screenshot from 2023-10-26 10-33-47](https://github.com/Althaf-official/KodeKloud_Kubernetes/assets/105126131/553264b5-c8a2-4a37-8f7b-9302ea679147)
+
+![Screenshot from 2023-10-26 11-12-35](https://github.com/Althaf-official/KodeKloud_Kubernetes/assets/105126131/9014f11c-f7c7-4b57-8146-fbcde0ea7ca0)
+
+
+## succesfully intergrated with front 5 pod together
+
+![Screenshot from 2023-10-26 11-17-11](https://github.com/Althaf-official/KodeKloud_Kubernetes/assets/105126131/963666fd-91ba-4a29-97cc-2e39637132ad)
+
+![Screenshot from 2023-10-26 11-13-01](https://github.com/Althaf-official/KodeKloud_Kubernetes/assets/105126131/acc14f12-7470-409d-b034-f896489184da)
+![Screenshot from 2023-10-26 11-13-12](https://github.com/Althaf-official/KodeKloud_Kubernetes/assets/105126131/14d8c7fb-ea84-48eb-a1d5-261aa5463cb6)
 
 
 
