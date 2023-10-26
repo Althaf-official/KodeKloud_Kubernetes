@@ -40,11 +40,24 @@ git clone https://github.com/Althaf-official/example-voting-app.git
 
 ![Screenshot from 2023-10-26 18-52-59](https://github.com/Althaf-official/KodeKloud_Kubernetes/assets/105126131/02e828e4-f93b-4ed0-9ad2-39eca56bb0bf)
 
+# created deployment and services
+
+![Screenshot from 2023-10-26 19-01-37](https://github.com/Althaf-official/KodeKloud_Kubernetes/assets/105126131/2f88aaa9-31dc-4cad-a1ef-b0a7b115d3e8)
 
 
+![Screenshot from 2023-10-26 19-03-14](https://github.com/Althaf-official/KodeKloud_Kubernetes/assets/105126131/1c3b0997-6a69-46b9-a92c-81132876092e)
 
 
+## succesfully deployed through google cloud
+two ip address is working now
 
+External ip is working . now anywhere in the world can acces this 
+![Screenshot from 2023-10-26 19-12-47](https://github.com/Althaf-official/KodeKloud_Kubernetes/assets/105126131/ff554c4b-b229-49bc-b959-92cd2d6e0621)
+
+
+![Screenshot from 2023-10-26 19-09-07](https://github.com/Althaf-official/KodeKloud_Kubernetes/assets/105126131/75aece01-6d31-43d3-87e9-1ac714447da1)
+
+![Screenshot from 2023-10-26 19-10-10](https://github.com/Althaf-official/KodeKloud_Kubernetes/assets/105126131/42a671bd-e37d-441c-8a27-b8542fe480c5)
 
 
 
