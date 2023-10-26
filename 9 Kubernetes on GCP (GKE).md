@@ -14,3 +14,39 @@
 ### it will give the acess to the cloud shell
 
 ![Screenshot from 2023-10-26 17-28-15](https://github.com/Althaf-official/KodeKloud_Kubernetes/assets/105126131/f8499a48-5937-48f6-a468-57ad9911ada9)
+
+### check the node is available or not
+
+![Screenshot from 2023-10-26 18-32-06](https://github.com/Althaf-official/KodeKloud_Kubernetes/assets/105126131/f6336c11-c33b-4ac9-b198-5ebf6433b033)
+
+### clone the repo from github
+
+![Screenshot from 2023-10-26 18-34-59](https://github.com/Althaf-official/KodeKloud_Kubernetes/assets/105126131/7b912e60-0bab-4c4c-961e-783b135b2c48)
+
+
+```ruby
+git clone https://github.com/Althaf-official/example-voting-app.git
+```
+
+###  cd   kubernetes_specification files folder
+
+![Screenshot from 2023-10-26 18-38-07](https://github.com/Althaf-official/KodeKloud_Kubernetes/assets/105126131/0336e7c3-cda6-4d2e-ba48-9676ee689d53)
+
+
+# then change the type from NodePort to LoadBalancer in vote-app-service.yaml and result-app-service.yaml files
+
+![Screenshot from 2023-10-26 18-51-24](https://github.com/Althaf-official/KodeKloud_Kubernetes/assets/105126131/45d60508-0731-4397-967b-d85f9b332551)
+![Screenshot from 2023-10-26 18-51-56](https://github.com/Althaf-official/KodeKloud_Kubernetes/assets/105126131/bbbe7a38-11f8-45e8-9cbe-a65c062d4129)
+
+![Screenshot from 2023-10-26 18-52-59](https://github.com/Althaf-official/KodeKloud_Kubernetes/assets/105126131/02e828e4-f93b-4ed0-9ad2-39eca56bb0bf)
+
+
+
+
+
+
+
+
+
+
+
