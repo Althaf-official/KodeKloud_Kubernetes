@@ -61,5 +61,8 @@ External ip is working . now anywhere in the world can acces this
 
 
 
+view the details from this tab
+![Screenshot from 2023-10-26 19-19-08](https://github.com/Althaf-official/KodeKloud_Kubernetes/assets/105126131/425c210d-8911-49aa-9f26-c888f6416177)
+
 
 
