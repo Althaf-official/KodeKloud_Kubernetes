@@ -1,3 +1,6 @@
+![Screenshot from 2023-10-26 11-22-52](https://github.com/Althaf-official/KodeKloud_Kubernetes/assets/105126131/dba35924-b2a9-4868-8ba3-136dabdc549a)
+
+
 # Created 5 pods
 
 ![Screenshot from 2023-10-26 09-08-18](https://github.com/Althaf-official/KodeKloud_Kubernetes/assets/105126131/7344abdf-2e56-4a8c-a265-7939f9d90735)
